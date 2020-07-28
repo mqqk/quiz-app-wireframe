@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-radius: 1%;
+  }
+  
+  body {
+    font-family: 'Papyrus';
+    color: #000000;
+    background-color: rgb(187,154,235);
+  }
+  
+
+  /* header designs */
+
+  .header {
+    text-align: center;
+    padding:50px 0;
+  }
+
+  ul{
+    padding:.25em 0;
+  }
+  ul li{
+    padding:.25em 0;
+  }
+
+  .logoRL {
+    width:400px;
+  }
+
+  /* design the quiz box here */
+    /* lets start with the backdrop of box */
+
+  .quizBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  background-image: url(../images/progressrank.jpg);
+  border: 0.1em #371d0d solid;
+}
+
+  .box{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    /* text-align:center; */
+    margin:2em 10em 5em 10em;
+    /* margin:auto; */
+    padding:7px;
+    border:1px rgb(187,154,235);
+    background-color:rgb(163, 74, 190);
+  
+  }
+
+  .box img{
+    width:50%;
+    padding:10px 0;
+
+  }
+
+  /* button button  */
+  .sButton{
+    margin:.5em 0;
+    border-radius: 10px;
+    color:#fff;
+    width:100px;
+    height:34px;
+    cursor:pointer;
+    font-family:Papyrus;
+    border:2px rgb(248, 248, 248);
+    background-color:rgb(34, 2, 44);
+    font-size:24px;
+  }
